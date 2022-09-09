@@ -1,8 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
 ```
-Name : PAARKAVY B
-Roll no : 212221230072
-Date of experiment : 09/09/2022
+Name : PARSHWANATH M
+Roll no : 212221230073
 ```
 
 # AIM:
@@ -53,7 +52,7 @@ HLT;
 ```
 
 ## OUTPUT:
-![output](add.png)  
+![output](addition.png)  
  
 ## Subtraction of 8 bit ALP:
 ```
@@ -83,7 +82,7 @@ HLT;
 ```
 
 ## OUTPUT:
-![output](mul.png)
+![output](multi.png)
 
 ## Division of 8 bit ALP:
 ```
