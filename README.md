@@ -44,7 +44,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 name "ADDITION"
 org 100h
 MOV AH,05H;
-MOV BH,02H;
+MOV BH,10H;
 ADD AH,BH;
 MOV CH,AH;
 MOV AH,00H;
@@ -52,14 +52,14 @@ HLT;
 ```
 
 ## OUTPUT:
-![output](addition.png)  
+![output](add.png)  
  
 ## Subtraction of 8 bit ALP:
 ```
 name "SUBTRACTION"
 org 100h
-MOV AH,09H;
-MOV BH,03H;
+MOV AH,05H;
+MOV BH,10H;
 SUB AH,BH;
 MOV CH,AH;
 MOV AH,00H;
@@ -72,9 +72,9 @@ HLT;
 ## Multiplication of 8 bit ALP:
 ```
 name "MULTIPLICATION"
-org 700h
-MOV AL,15H;
-MOV BL,03H;
+org 100h
+MOV AL,05H;
+MOV BL,10H;
 MUL BL;
 MOV CL,AL;
 MOV AL,00H;
@@ -87,9 +87,9 @@ HLT;
 ## Division of 8 bit ALP:
 ```
 name "DIVISION"
-org 700h
-MOV AL,40H;
-MOV BL,02H;
+org 100h
+MOV AL,05H;
+MOV BL,10H;
 DIV BL;
 MOV CL,AL;
 MOV AL,00H;
